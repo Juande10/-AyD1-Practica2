@@ -43,5 +43,9 @@ public static String Potencia(String a, String b) {
     }
 
 	
-	
+public static String Raiz(String a) {
+        int a1 = Integer.parseInt(a, 2);
+        String resultado = Math.sqrt(numero.toString());
+        return resultado;
+    }
 	
