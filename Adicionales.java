@@ -1,15 +1,11 @@
-public static Double factorial(){
+public static Double factorial(int n){
 
-	int fact =1;
-	int cont =1;
-	int numero = 10;
-	
-	while(numero!=0)
-	{
-		fact = fact * cont;
-		cont++;
-	}
-
-return (Double)fact;
+	if(n==0){
+				
+			  return 1;
+			}
+			else{
+			  return n * factorial(n-1);
+			}
 
 }
