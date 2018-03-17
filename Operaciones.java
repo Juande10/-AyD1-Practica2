@@ -4,6 +4,8 @@ public static String Suma(String a, String b) {
         int c1 = a1 + b1;
         String resultado = Integer.toString(c1, 2);
         return resultado;
+		//estoy modificando para la calificacion
+		int cagada;
     }
 
 
